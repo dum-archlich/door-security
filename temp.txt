@@ -236,7 +236,7 @@ uint8_t getFingerprintEnroll()
   }
   else if (p == FINGERPRINT_FLASHERR)
   {
-    Serial.println("Error writing to flash");
+    Serial.println("Error writing to flash")
     return p;
   }
   else
